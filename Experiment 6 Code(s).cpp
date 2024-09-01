@@ -142,7 +142,7 @@ int main() {
 #include <string> // For std::string
 
 int main() {
-    const std::string correctPassword = "secure123"; // Predefined correct password
+    const std::string correctPassword = "sit"; // Predefined correct password
     std::string enteredPassword;
     bool isPasswordCorrect = false;
 

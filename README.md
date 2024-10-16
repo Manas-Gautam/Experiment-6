@@ -350,6 +350,34 @@ int main() {
 
 ![image](https://github.com/user-attachments/assets/50ee7270-2f5b-4a23-80f0-59c9ba342a71)
 
+## Print Floyd Series: - 
+## Code: - 
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int rows, num = 1;
+
+    // Input number of rows for Floyd's Triangle
+    cout << "Enter the number of rows: ";
+    cin >> rows;
+
+    // Loop to generate Floyd's Triangle
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << num << " ";
+            num++;
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+## Output: -
+![image](https://github.com/user-attachments/assets/dc504959-5f1e-46ed-99bc-eeeaae746b3f)
+
 
 **Conclusion: -**
 In C++, loops are crucial constructs for executing a block of code multiple times, enabling efficient handling of repetitive tasks and iterative processes. The three primary types of loops—`for`, `while`, and `do-while`—each serve distinct purposes. The `for` loop is ideal for scenarios where the number of iterations is known beforehand, providing a compact syntax for initialization, condition-checking, and iteration. The `while` loop is used when the number of iterations is uncertain and depends on a condition evaluated before each loop iteration. The `do-while` loop, on the other hand, ensures that the loop body executes at least once by evaluating the condition after the loop body. Effective use of loops involves ensuring proper termination conditions to prevent infinite loops, optimizing performance, and using meaningful variable names for clarity. Mastery of these looping constructs allows programmers to write more efficient, readable, and maintainable code, making loops a foundational concept in C++ programming.
